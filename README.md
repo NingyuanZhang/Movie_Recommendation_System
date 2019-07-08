@@ -23,7 +23,7 @@ Firstly, we weight the similarity between each two users. Here we use Cosine sim
 
 Next, we move forward to implement prediction for movie i of user x. Let N be the set of K users most similar to x who have rated movie i.
 
-![](http://latex.codecogs.com/gif.latex?\\\frac{\sum_{y\in N}sim(x,y).r_{yi}}{\sum_{y\in N}sim(x,y)})
+![](http://latex.codecogs.com/gif.latex?\\frac{\sum_{y\in N}sim(x,y).r_{yi}}{\sum_{y\in N}/sim(x,y)})
 
 ### 2.Item-Item Collaborative Filtering
 ### 3.Basic Latent Factor Model
