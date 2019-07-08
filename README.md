@@ -1,6 +1,6 @@
 
 # Movie_Recommendation_System
-It's a movie recommendation ststem on MovieLens dataset.
+A movie recommendation ststem on MovieLens dataset.
 ## Overview
 Our goal is to create a recommendation list for each user. This project consists three steps: 1) Data Processing, create the training and testing dataset from the original dataset; 2) Conduct rating prediction and make evaluation based on MAE and RMSE; 3) Conduct Top-N recommendation and make evaluation based on Precision, Recall, F-measure and NDCG.
 ## Dataset
