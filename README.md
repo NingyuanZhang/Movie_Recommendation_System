@@ -15,18 +15,9 @@ Based on the training dataset, we use different models to conduct prediction.
 
 After predicting the ratings in the test dataset( as if we didn't know them), we evaluate predictions by calculating the MAE and RMSE.
 ### 1.User-User Collaborative Filtering
-The mian idea is to find set N of other users whose ratings are similar to x's ratings and create the recommendation list based on them.
-
-Firstly, we weight the similarity between each two users. Here we use Cosine similarity measure since Jaccard similarity measure ignores the value of the rating.
-
-![](http://latex.codecogs.com/gif.latex?\\/sim(x,y)=cos(r_x,r_y)=\frac{r_x.r_y}{||r_x||.||r_y||})
-
-Next, we move forward to implement prediction for movie i of user x. Let N be the set of K users most similar to x who have rated movie i.
-
-![](http://latex.codecogs.com/gif.latex?\\frac{\sum_{y\in \N}/sim(x,y).r_{yi}}{\sum_{y\in \N}/sim(x,y)})
-
 ### 2.Item-Item Collaborative Filtering
 ### 3.Basic Latent Factor Model
 ### 4.Latent Factor Model with Biases
 ### 5.Latent Factor Model with Temporal Biases
-
+## Item recommendation
+The final step is to create a recommendation list for each user, and the length of the list is 10. We also evaluate the quality of the recommendation. 
