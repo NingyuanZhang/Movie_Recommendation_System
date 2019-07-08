@@ -16,7 +16,7 @@ After predicting the ratings in the test dataset( as if we didn't know them), we
 The mian idea is to find set N of other users whose ratings are similar to x's ratings and create the recommendation list based on them.
 Firstly, we weight the similarity between each two users. Here we use Cosine similarity measure since Jaccard similarity measure ignores the value of the rating.
 
-![](http://latex.codecogs.com/gif.latex?\\f(x,y)=cos(r_x,r_y)=\frac{r_x.r_y}{||r_x||.||r_y||})
+![](http://latex.codecogs.com/gif.latex?\\(sim)(x,y)=cos(r_x,r_y)=\frac{r_x.r_y}{||r_x||.||r_y||})
 ### 2.Item-Item Collaborative Filtering
 ### 3.Basic Latent Factor Model
 ### 4.Latent Factor Model with Biases
