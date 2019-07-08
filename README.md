@@ -20,6 +20,10 @@ The mian idea is to find set N of other users whose ratings are similar to x's r
 Firstly, we weight the similarity between each two users. Here we use Cosine similarity measure since Jaccard similarity measure ignores the value of the rating.
 
 ![](http://latex.codecogs.com/gif.latex?\\/sim(x,y)=cos(r_x,r_y)=\frac{r_x.r_y}{||r_x||.||r_y||})
+
+Next, we move forward to implement prediction for movie i of user x. Let N be the set of K users most similar to x who have rated movie i.
+
+![](http://latex.codecogs.com/gif.latex?\\r_{xi}=\frac{\sum_{y\in N}sim(x,y).r_{yi}}{\sum_{y\in N}sim(x,y)})
 ### 2.Item-Item Collaborative Filtering
 ### 3.Basic Latent Factor Model
 ### 4.Latent Factor Model with Biases
