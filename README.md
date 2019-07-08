@@ -15,7 +15,7 @@ After predicting the ratings in the test dataset( as if we didn't know them), we
 ### User-User Collaborative Filtering
 The mian idea is to  
 <img src="http://chart.googleapis.com/chart?cht=tx&chl= 在此插入Latex公式" style="border:none;">
-<img src="http://chart.googleapis.com/chart?cht=tx&chl=x=frac{-b\pm\sqrt{b^2-4ac}}{2a}" style="border:none;">
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" style="border:none;">
 ### Item-Item Collaborative Filtering
 ### Basic Latent Factor Model
 ### Latent Factor Model with Biases
